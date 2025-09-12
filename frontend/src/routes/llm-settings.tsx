@@ -373,9 +373,17 @@ function LlmSettingsScreen() {
       });
     }
 
+    // Add Gray Swan analyzer fourth
+    if (analyzers.includes("grayswan")) {
+      orderedItems.push({
+        key: "grayswan",
+        label: t(I18nKey.SETTINGS$SECURITY_ANALYZER_GRAYSWAN),
+      });
+    }
+
     // Add any other analyzers that might exist
     analyzers.forEach((analyzer) => {
-      if (!["llm", "invariant", "none"].includes(analyzer)) {
+      if (!["llm", "invariant", "none", "grayswan"].includes(analyzer)) {
         // For unknown analyzers, use the analyzer name as fallback
         // In the future, add specific i18n keys for new analyzers
         orderedItems.push({

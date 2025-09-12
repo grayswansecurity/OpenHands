@@ -13231,6 +13231,22 @@
     "de": "Invariant regelbasierter Analysator",
     "uk": "Аналізатор на основі правил Invariant"
   },
+  "SETTINGS$SECURITY_ANALYZER_GRAYSWAN": {
+    "en": "Cygnal by Gray Swan AI",
+    "ja": "Gray Swan AIのCygnal",
+    "zh-CN": "Gray Swan AI的Cygnal",
+    "zh-TW": "Gray Swan AI的Cygnal",
+    "ko-KR": "Gray Swan AI의 Cygnal",
+    "no": "Cygnal av Gray Swan AI",
+    "it": "Cygnal di Gray Swan AI",
+    "pt": "Cygnal de Gray Swan AI",
+    "es": "Cygnal de Gray Swan AI",
+    "ar": "Cygnal من Gray Swan AI",
+    "fr": "Cygnal de Gray Swan AI",
+    "tr": "Gray Swan AI'nin Cygnalı",
+    "de": "Cygnal von Gray Swan AI",
+    "uk": "Cygnal від Gray Swan AI"
+  },
   "COMMON$HIGH_RISK": {
     "en": "High Risk",
     "ja": "高リスク",

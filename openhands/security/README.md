@@ -100,9 +100,9 @@ Browsing Agent Safety:
 
 * To enable this feature: In the InvariantAnalyzer object, set the check_browsing_alignment attribute to True and initialize the guardrail_llm attribute with an LLM object.
 
-### Gray Swan
+### Cygnal by Gray Swan AI
 
-The Gray Swan Security Analyzer integrates with [Gray Swan AI's Cygnal API](https://docs.grayswan.ai/monitor-requests/monitor) to provide advanced AI safety monitoring for OpenHands agents.
+The Cygnal Security Analyzer integrates with [Gray Swan AI's Cygnal API](https://docs.grayswan.ai/monitor-requests/monitor) to provide advanced AI safety monitoring for OpenHands agents.
 
 #### Getting Started
 To get started with the Gray Swan security analyzer (powered by Cygnal):
@@ -126,4 +126,4 @@ Then configure OpenHands to use the GraySwan analyzer:
 security_analyzer = "grayswan"
 ```
 
-or select "grayswan" from the dropdown in settings!
+or select "Cygnal by Gray Swan AI" from the dropdown in settings!
